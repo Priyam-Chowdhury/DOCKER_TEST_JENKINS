@@ -6,7 +6,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'git --version'
-                sh 'whoami'
+                sh 'echo "Hello workld"'
                 
             }
         }
