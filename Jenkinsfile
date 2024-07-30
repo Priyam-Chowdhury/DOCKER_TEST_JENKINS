@@ -5,7 +5,8 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'git --version2'    
+                sh 'git --version'
+                sh 'whoami'
                 
             }
         }
